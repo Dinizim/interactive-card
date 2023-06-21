@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap');
+
+:root {
+    --Lineargradient: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+    --Red: hsl(0, 100%, 66%);
+    --White: hsl(0, 0%, 100%);
+    --Light-grayish-violet: hsl(270, 3%, 87%);
+    --Dark-grayish-violet: hsl(279, 6%, 55%);
+    --Very-dark-violet: hsl(278, 68%, 11%);
+    --Family: 'Space Grotesk', monospace;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+body{
+    height: 100vh;
+
+}
+
+/* Mobile Screen */
+ @media screen and (min-width:300px){
+    .container{
+        height: 100vh;
+        width: 98.9vw;
+    }
+    /* card section */
+    .section-card{
+        position: relative;
+        background-image: url(../images/bg-main-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 30%;
+        margin-bottom: 200px;
+    }
+    .card-back{
+        position: absolute;
+        width: 300px;
+        left: 25px;
+        top: 22px;
+    }
+    #CVC{
+        position: absolute;
+        left: 255px;
+        top: 93px;
+        font-size: 16px;
+        color: white;
+    }
+    .card-front{
+        position: absolute;
+        width: 300px;
+        top: 70px;
+        left: 10px;
+        
+    }
+    .card-logo{
+        position: absolute;
+        top: 80px;
+        left: 30px;
+        width: 50px;
+    }
+    #Card-Number{
+        color: white;
+        position: absolute;
+        left: 30px;
+        top: 170px;
+        letter-spacing: 2px;
+    }
+    #Card-Name{
+        color: white;
+        position: absolute;
+        left: 30px;
+        font-size: 12px;
+        top: 200px;
+    }
+    #Date{
+        color: white;
+        position: absolute;
+        left: 250px;
+        font-size: 12px;
+        top: 200px;
+    }
+    }
+
+/* form section */
+.section-form{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    margin-bottom: 10px;
+    color: var(--Very-dark-violet);
+    font-weight: 400;
+}
+.field-2{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+#field-Date{
+    display:flex;
+    flex-direction: row;
+    gap: 5px;
+}
+/* css - Inputs */
+label{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+input{
+    border: 1px solid var(--Light-grayish-violet);
+    border-radius: 5px;
+    padding: 10px;
+ 
+}
+input[type=text]{
+    width: 300px;
+    padding: 10px;
+}
+input[type=number]{
+    width: 50px;
+}
+input[id=CVC-form]{
+    width: 130px;
+}
+
+input[type=button]:hover{
+    opacity: 0.9;
+}
+input[type=button]{
+    margin-top: 20px;
+    width: 322px;
+    padding: 10px;
+    background-color: var(--Very-dark-violet);
+    color: white;
+    font-weight: bold;
+
+}
+
+/* active effects */
+
+input:hover{
+    border: 1px solid var(--Very-dark-violet);
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    border: 1.3px solid var(--Dark-grayish-violet) ;
+    outline: 0;
+}
