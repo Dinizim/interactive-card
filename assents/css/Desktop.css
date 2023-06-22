@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap');
+
+
+:root {
+    --Lineargradient: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+    --Red: hsl(0, 100%, 66%);
+    --White: hsl(0, 0%, 100%);
+    --Light-grayish-violet: hsl(270, 3%, 87%);
+    --Dark-grayish-violet: hsl(279, 6%, 55%);
+    --Very-dark-violet: hsl(278, 68%, 11%);
+    --Family: 'Space Grotesk', monospace;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sansrowrif;
+    
+}
+body{
+    height: 100vh;
+
+}
+
+/* tablet preview */
+
+@media screen and (min-width: 768px) {
+    .container{
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .section-card{
+        text-align: left;
+        width: 50%;
+        height: 100%;
+    }
+    .card-back{
+        text-align: left;
+        position: absolute;
+        width: 300px;
+        left: 10px;
+        top: 120px;
+    }
+    #CVC{
+        position: absolute;
+        left: 240px;
+        top: 190px;
+        font-size: 13px;
+        color: white;
+    }
+    .card-front{
+        text-align: left;
+        position: absolute;
+        width: 300px;
+        top: 30px;
+        left: 5px;
+        
+    }
+    .card-logo{
+        position: absolute;
+        top: 50px;
+        left: 35px;
+        width: 50px;
+    }
+    #Card-Number{
+        color: white;
+        width: 100%;
+        position: absolute;
+        left: 35px;
+        top: 135px;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    #Card-Name{
+        color: white;
+        position: absolute;
+        left: 35px;
+        font-size: 10px;
+        top: 170px;
+    }
+    #Date{
+        color: white;
+        position: absolute;
+        left: 245px;
+        font-size: 10px;
+        top: 170px;
+    }
+    /* desktop preview */
+    }
+    @media screen and (min-width: 1024px) {
+        .container{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        .section-card{
+            width: 40%;
+            height: 100%;
+        }
+        .card-back{
+            position: absolute;
+            width: 300px;
+            left: 20%;
+            top: 170px;
+        }
+        #CVC{
+            position: absolute;
+            left: 300px;
+            top: 242px;
+            font-size: 13px;
+            color: white;
+        }
+        .card-front{
+            position: absolute;
+            width: 300px;
+            top: 70px;
+            left: 10%;
+            
+        }
+        .card-logo{
+            position: absolute;
+            top: 80px;
+            left: 50px;
+            width: 50px;
+        }
+        #Card-Number{
+            color: white;
+            width: 100%;
+            position: absolute;
+            left: 50px;
+            top: 165px;
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+        #Card-Name{
+            color: white;
+            position: absolute;
+            left: 50px;
+            font-size: 10px;
+            top: 200px;
+        }
+        #Date{
+            color: white;
+            position: absolute;
+            left: 265px;
+            font-size: 10px;
+            top: 200px;
+        }
+        }
+    
+
+    @media screen and (min-width: 1200px) {
+        .container{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        .section-card{
+            width: 40%;
+            height: 100%;
+        }
+        .card-back{
+            position: absolute;
+            width: 300px;
+            left: 140px;
+            top: 170px;
+        }
+        #CVC{
+            position: absolute;
+            left: 375px;
+            top: 242px;
+            font-size: 13px;
+            color: white;
+        }
+        .card-front{
+            position: absolute;
+            width: 300px;
+            top: 70px;
+            left: 110px;
+            
+        }
+        .card-logo{
+            position: absolute;
+            top: 80px;
+            left: 140px;
+            width: 50px;
+        }
+        #Card-Number{
+            color: white;
+            width: 100%;
+            position: absolute;
+            left: 140px;
+            top: 165px;
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+        #Card-Name{
+            color: white;
+            position: absolute;
+            left: 140px;
+            font-size: 10px;
+            top: 200px;
+        }
+        #Date{
+            color: white;
+            position: absolute;
+            left: 350px;
+            font-size: 10px;
+            top: 200px;
+        }
+        }
+    
+
