@@ -93,6 +93,7 @@ body{
             display: flex;
             flex-direction: row;
             width: 100%;
+            font-size: 24px;
         }
         .section-card{
             width: 40%;
@@ -169,8 +170,8 @@ body{
         #CVC{
             position: absolute;
             left: 375px;
-            top: 242px;
-            font-size: 13px;
+            top: 241px;
+            font-size: 15px;
             color: white;
         }
         .card-front{
@@ -199,14 +200,14 @@ body{
             color: white;
             position: absolute;
             left: 140px;
-            font-size: 10px;
+            font-size: 13px;
             top: 200px;
         }
         #Date{
             color: white;
             position: absolute;
-            left: 350px;
-            font-size: 10px;
+            left: 336px;
+            font-size: 13px;
             top: 200px;
         }
         }
